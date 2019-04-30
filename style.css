@@ -1,0 +1,106 @@
+
+form
+{
+	background-color:#fef2fe;
+	font-size: 100%;
+	text-align: center;
+	font-family: "Times New Roman";
+	margin-left: 410px;
+	margin-top: 15px;
+	margin-right: 560px;
+	border-radius: 5px;
+	width: 480px;
+	margin-bottom: 50px;
+
+
+}
+
+
+body{
+text-overflow: #230ec0;
+color:#523208;
+background-color:#31b8ba; 
+font-size: 90%;
+text-align: center;
+font-family: "Times New Roman";
+margin-left: 10px;
+margin-bottom: 5px;
+
+}
+
+
+fieldset
+{
+padding:  20px 20px 20px;
+margin-bottom: 20px;
+border:8px solid #31b8ba;
+margin-top: 20px;
+
+}
+
+legend
+{
+color: #939880;
+font-stretch: bold;
+font-size: 80px;
+
+}
+label
+{
+
+margin-top: 10px;
+display: block;
+}
+
+label.inline
+{
+
+	display: inline;
+	margin-right: 50px;
+}
+input,textarea,select,option
+{
+	padding: 4px;
+	border: 2px solid #31b8ba;
+	border-radius: 4px;
+	width: 200px;
+	font-family: "Times New Roman";
+
+
+
+
+}
+input[type=submit],input[type=reset]
+{
+width: 100px;
+margin-left: 10px;
+box-shadow: 1px 1px 2px #13455c;
+cursor:pointer;
+border-radius: 4px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+}
+input[type=text],input[type=email],input[type=password]
+{
+	margin-right: 0px;
+	margin-bottom: 50px;
+
+}
+a
+{
+border-color: #523208;
+color: #fef2fe;
+}
+table
+{
+width: 100%;
+height: 100%;
+color: black;
+margin-top:50px;
+border-color: #31b8ba;
+border:1px;
+text-align: center;
+
+}
