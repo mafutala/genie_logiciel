@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+	<title>Design</title>
+</head>
+<body>
+<a href="liste.php">Afficher la liste</a>
+<form action="ajouter.php" method="post" name="form1">
+	<legend>Inscription</legend>
+<fieldset>
+	<table width="50%">
+		<tr>
+			<td></td>
+			<td><input type="text" name="name" required="" placeholder="Username"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="email" name="email" size="20" maxlength="60" value="email"id="email"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="Password" name="Password" required="" placeholder="Mot de passe"></td>
+		</tr>
+	
+	</table>
+</fieldset>
+		<p>
+		<input type="submit" name="submit" value="S'inscrire"/>
+		<input type="reset" name="reset" value="Annuler"/>
+		</p>	
+</form>
+</body>
+</html>
